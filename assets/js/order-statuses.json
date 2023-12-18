@@ -1,0 +1,18 @@
+[
+    {
+        "title": "Select Status",
+        "status_id": ""
+    },
+    {
+        "title": "Pending",
+        "status_id": "0"
+    },
+    {
+        "title": "Completed",
+        "status_id": "1"
+    },
+    {
+        "title": "For Shipping",
+        "status_id": "2"
+    }
+]

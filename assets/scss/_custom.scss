@@ -1,0 +1,30 @@
+.border-radius-regular{
+    border-radius: 25px !important;
+}
+
+.border-radius-tlr-regular{
+    border-top-right-radius: 25px !important;
+    border-top-left-radius: 25px !important;
+    border-bottom-right-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+}
+
+.border-radius-medium{
+    border-radius: 15px !important;
+}
+
+
+.top-shadow {
+    -webkit-box-shadow: -1px -2px 4px rgba(50, 50, 50, 0.75) !important;
+    -moz-box-shadow: -1px -2px 4px rgba(50, 50, 50, 0.75) !important;
+    box-shadow: -1px -2px 4px rgba(50, 50, 50, 0.75) !important;
+}
+
+html, body{
+    background-color: $gray;
+    scroll-behavior: smooth;
+}
+
+tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, .05);
+  }

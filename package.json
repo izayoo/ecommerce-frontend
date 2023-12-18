@@ -1,0 +1,38 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@nuxtjs/moment": "^1.6.1",
+    "@types/node": "^18.16.19",
+    "nuxt": "^3.6.5",
+    "sass": "^1.64.1"
+  },
+  "dependencies": {
+    "@capacitor/android": "^5.2.2",
+    "@capacitor/cli": "^5.2.2",
+    "@capacitor/core": "^5.2.2",
+    "@capacitor/ios": "^5.2.2",
+    "@capacitor/share": "^5.0.6",
+    "@mdi/font": "^7.2.96",
+    "@popperjs/core": "^2.11.8",
+    "@vuepic/vue-datepicker": "^5.4.0",
+    "@vueup/vue-quill": "^1.2.0",
+    "axios": "^1.4.0",
+    "date-fns": "^2.30.0",
+    "fb-sdk-wrapper": "^1.1.0",
+    "lodash.debounce": "^4.0.8",
+    "v-calendar": "^3.0.3",
+    "video.js": "^8.3.0",
+    "vue-dragscroll": "^4.0.5",
+    "vue3-tel-input": "^1.0.4",
+    "vuetify": "^3.3.9"
+  }
+}
